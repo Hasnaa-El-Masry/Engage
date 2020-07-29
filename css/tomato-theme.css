@@ -1,0 +1,19 @@
+.text-seagreen,
+.service-link:hover,
+.service-link:hover i
+{
+  color: #f44336;
+}
+
+.bg-seagreen,
+.learn-more-btn,
+.navbar .nav-item .nav-link.contact-btn:hover,
+header .header-btn,
+.testimonials .owl-carousel .owl-nav button.owl-next:hover,
+.testimonials .owl-carousel .owl-nav button.owl-prev:hover,
+.contact-us
+{
+  background-color: #f44336;
+}
+
+

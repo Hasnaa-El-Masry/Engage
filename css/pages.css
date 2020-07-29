@@ -1,0 +1,439 @@
+body
+{
+    overflow: auto;
+}
+h3
+{
+    font-size: 2rem;
+}
+/* Start Breadcrumb Section */
+.breadcrumb-section h1
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #555;
+}
+/* End Breadcrumb Section */
+
+/* Start Contact Us Section */
+.contact-us
+{
+    background-image: url('../images/additional-value.jpg');
+    background-size:cover;
+}
+.contact-us .overlay
+{
+    width: 100%;
+    background-color: #50ae5c;
+    opacity: .9;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.contact-us .learn-more-btn
+{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    padding: 1.4rem 2rem;
+}
+.contact-us .learn-more-btn:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+/* End Contact Us Section */
+
+/* Start About Page */
+
+    /*Start Our Values Section */
+    .our-values h5
+    {
+        font-size: 1.5rem;
+        color: #333;
+    }
+    /*End Our Values Section */
+
+    /* Our Team Section */
+    .our-team .card-body
+    {
+        border-color: #eee !important;
+    }
+    .our-team .member-social i 
+    {
+        border:1px solid #ccc ;
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        transition: background-color .5s;
+        -webkit-transition: background-color .5s;
+        -moz-transition: background-color .5s;
+        -ms-transition: background-color .5s;
+        -o-transition: background-color .5s;
+    }
+    .our-team .member-social i:hover
+    {
+        color:#fff;
+        cursor: pointer;
+    }
+    .our-team .member-social i.fa-facebook-f:hover
+    {
+        background-color: #3b5998;
+    }
+    .our-team .member-social i.fa-twitter:hover
+    {
+        background-color: #1da1f2;
+    }
+    .our-team p
+    {
+        line-height: 1.3rem;
+        margin-top: 0.6rem;
+        color: #666;
+    }
+
+    /* Our Team Section */
+/* End About Page */
+
+/*Start Services Page */
+    /*Start About Brilliant Services Section*/
+    .brilliant-services p
+    {
+        font-size: 1rem !important;
+    }
+    /*End About Brilliant Services Section*/
+
+    /*Start Brilliant Services Section*/
+    .brilliant-service
+    {
+        border: 0;
+    }
+    .brilliant-service > a i
+    {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        color: #fff;
+        font-size: 1.5rem;
+        background-color: #50ae5c;
+        text-align: center;
+    }
+    .brilliant-service .service-link
+    {
+        color: #555;
+    }
+    /*End Brilliant Services Section*/
+
+    /* Start Why It Worth Section */
+    .why-it-worth p
+    {
+        font-size: 1rem !important;
+    }
+    /* End Why It Worth Section */
+
+    /*Start Contact Us Section*/
+    .contact-us .services-page
+    {
+        background-image: url('../images/we-family.jpg');      
+    }
+    /*End Contact Us Section*/
+
+/*End Services Page */
+
+/*Start Pricing Page*/
+    /*Start Pricing why it worth Section*/
+    .pricing-why mark
+    {
+        background-color: transparent;
+        color: #50ae5c;
+    }
+    /*End Pricing why it worth Section*/
+
+    /*Start Standard Packages Section */
+    .standard-packages h3
+    {
+        font-size: 2.5rem;
+    }
+    .standard-packages h5
+    {
+        font-size: 3.5rem;
+    }
+    .standard-packages .card-text
+    {
+        color: #ccc;
+    }
+    .standard-packages ul
+    {
+        border-color: #eee !important;
+        color: #777 !important;
+    }
+    .card-link.btn-secondary
+    {
+        background-color: #ccc !important;
+        border: none;
+        color: #333;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: .9rem;
+        padding: .9rem 1.5rem;
+    }
+    .standard-packages .card-link.btn-secondary:hover
+    {
+        color: #fff !important;
+        background-color: #333 !important;
+    }
+    .standard-packages .card-link.btn-secondary.classic
+    {
+        background-color: #50ae5c !important;
+        color: #fff;
+    }
+    .standard-packages .card-link.btn-secondary.classic:hover
+    {
+        background-color: #333 !important;
+    }
+    .standard-packages .classic .card-body
+    {
+       color: #fff !important;
+    }
+    /*End Standard Packages Section */
+
+    /*Start Premium Packages Section */
+    .premium-packages
+    {
+        background-image: url('../images/we-family.jpg');
+        background-size: cover;
+        color: #fff;
+    }
+    .premium-packages .overlay
+    {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 5rem;
+    }
+    .premium-packages h3
+    {
+        font-size: 2.5rem;
+    }
+    .premium-packages p
+    {
+        color: #fff;
+    }
+    .premium-packages h5
+    {
+        font-size: 3.5rem;
+    }
+    .premium-packages .card-link.btn-secondary
+    {
+        background-color: #50ae5c !important;
+        color: #fff;
+        border: none;
+    }
+    .premium-packages .card-link.btn-secondary:hover
+    {
+        background-color: #333 !important;
+    }
+    .premium-packages ul
+    {
+        color: #777;
+    }
+    /*End Premium Packages Section */
+
+    /*Start Contact Us Section*/
+    .contact-us.contact-us.pricing-page
+    {
+        background-image: none;
+        background-color: #fff;
+    }
+    .contact-us.pricing-page h2
+    {
+        color: #000 !important;
+    }
+    .contact-us.pricing-page p
+    {
+        color: rgb(144, 144, 144);
+        font-weight: 300;
+    }
+ 
+    .contact-us.pricing-page  .learn-more-btn
+    {
+    background-color: #50ae5c;
+    border: none;
+    }
+    .contact-us.pricing-page .learn-more-btn:hover
+    {
+        background-color: #555;
+        color: #fff;
+    }
+
+    /*End Contact Us Section*/
+/* End Pricing Page*/
+
+/*Start News Page 1*/
+.news-post a
+{
+    transition: color .4s ease-in-out;
+    -webkit-transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -ms-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
+}
+
+.news-post  a:hover
+{
+   color: #50ae5c !important;
+}
+.news .news-post span
+{
+   display: block;
+   color: #ccc;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+.news .news-post .media-body > a
+{
+    color: #777 ;
+}
+.new-list h5
+{
+    font-size: 1.2rem;
+    color: #444;
+}
+.new-list ul 
+{
+    margin-left: .5rem;
+}
+.new-list ul li
+{
+    margin: 1rem;
+}
+.new-list ul li a,
+.new-list ul li i
+{
+    color: #777 !important;
+}
+.new-list ul li i
+{
+    font-size: .6rem;   
+}
+/*Start Pagination Section*/
+
+/*End Pagination Section*/
+.pagination a
+{
+    color: #777;
+    border: 1px solid #eee;
+    transition: background-color .4s ease-in-out;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+}
+.pagination i
+{
+    font-size: .6rem;
+}
+.pagination a:hover
+{
+    background-color: #50ae5c;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.pagination a:focus
+{
+    box-shadow: none;
+}
+.page-item.active .page-link 
+{
+    color: #FFF;
+    background-color: #50ae5c !important;
+    border-color: transparent;
+    cursor: auto;
+}
+/*End News Page1*/
+/*Start News Page 2*/
+.news-post .post-qoute 
+{
+    font-size: 1.3rem;
+    position: relative;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+}
+.news-post .post-qoute span
+{
+    font-size: 1rem;
+    color: #fff;
+}
+.news-post .post-qoute i
+{
+    color: #ccc ;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+.news-post .post-qoute:hover
+{
+    background-color: #333;
+    cursor: pointer;
+}
+/*End News Page 2*/
+
+/* Start Contact Form Page*/
+    /*Start Form Section*/
+    .contact-form input,
+    .contact-form textarea
+    {
+      margin-bottom: 1.5rem;
+      padding: 1.5rem 2rem;
+      border:2px solid #eee !important;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus
+    {
+        border: 2px solid #50ae5c !important;
+        box-shadow: none;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder
+    { 
+        color: #ccc;
+    }
+    .contact-form textarea
+    { 
+        height: 15rem;
+    }
+    
+    .contact-form button 
+    {
+       font-weight: bold;
+       padding: .8rem 1.5rem;
+    }
+    .contact-info p
+    {
+        font-size: 1rem !important;
+        color: #555;
+        margin-bottom: 2rem;
+    }
+    .contact-info ul li
+    {
+        margin-bottom: 2rem;
+    }
+    .contact-info ul li a
+    {  
+        color: #333 !important;
+    }
+
+    .contact-info i
+    {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .contact-info span.fa-li {
+        top: -.5rem;
+        left: -4rem;
+    }
+    /*End Form Section*/
+/* End Contact Form Page*/
